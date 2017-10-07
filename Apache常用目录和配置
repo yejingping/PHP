@@ -1,0 +1,19 @@
+===========================================================
+Apache目录说明
+bin Apache可执行文件目录,如httpd.exe,ApacheMonitor.exe等
+cig-bin CGI网页程序目录
+conf Apache配置文件目录
+htdocs 默认站点的网页文档目录
+logs Apache日志文件目录,只要包括访问日志access.log和错误日志 error.log
+manual Apache帮助手册目录
+modules Apache 动态加载模块目录
+==========================================================
+Apache的常用配置
+ServerRoot Apache服务器的根目录,即安装目录
+Listen 服务器监听的端口号,如80 8080
+LoadModule 需要加载的模块
+ServerAdmin 服务器管理员的邮箱地址
+ServerName 服务器的域名
+DocumentRoot 网站根目录
+ErrorLog 记录错误日志
+============================================================
